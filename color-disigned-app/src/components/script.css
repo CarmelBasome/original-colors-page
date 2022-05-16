@@ -1,0 +1,68 @@
+		
+		.page {
+			margin: 10px 2rem;
+		}
+
+		button {
+			width: 11rem;
+			height: 4rem;
+			font-size: 20px;
+		}
+
+		.buttons-section {
+			margin: 1rem 9.5rem;
+		}
+		.h2{
+			font-size: 80px;
+			text-align: center;
+			color: dodgerblue;
+		}
+		p{
+			text-align: center;
+		}
+		.p1{
+			font-size: 30px;
+			margin: 2px 200px;
+			text-align: left;
+		}
+		ol{
+			text-align: left;
+			padding: 0px 100px;
+			font-size: 35px;
+			list-style-type: afar;
+		}
+		.div1{
+			color: black;
+			text-align: center;
+			text-shadow: 2px -2px 10px;
+			background-color: none;
+			font-size: 65px;
+			margin: 2px 200px;
+			border: 2px silver solid;
+			box-shadow: -1px 1px 100px;
+		}		
+		.div{
+			color: black;
+			text-align: center;
+			text-shadow: 2px -2px 10px;
+			background-color: none;
+			font-size: 65px;
+			margin: 2px 200px;
+			border: 2px silver solid;
+			box-shadow: -1px 1px 100px;
+			display: none;
+		}
+		.homebttn{
+			width: 170px;
+			font-size: 40px;
+			border: 0px gray solid;
+			display: hide;
+			margin: 1px 200px 1px 200px;
+			position: fixed;
+		}
+		
+		li {
+			text-align: left;
+		}
+
+
