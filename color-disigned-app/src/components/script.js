@@ -1,3 +1,5 @@
+import React from 'react';
+import Buttons from './Buttons/buttons';
 import './script.css';
 
 function Page() {
@@ -33,42 +35,8 @@ function Page() {
                      </li>
                  </ol>
 		
-				 <p><a href='colors.html'>Click to get it.</a></p>
-			  </div>
-		
-			<div className='buttons-section'>    
-               <button onclick="black()">black</button>
-               <button onclick="red()">red</button>
-               <button onclick="white()">white</button>
-               <button onclick="blue()">blue</button>
-               <button onclick="green()">green</button>
-               <button onclick="gray()">gray</button>
-               <button onclick="yellow()">yellow</button>
-               <button onclick="orange()">orange</button>
-               <button onclick="pink()">pink</button>
-               <button onclick="violet()">violet</button>
-               <button onclick="lime()">lime</button>
-               <button onclick="beige()">beige</button>
-               <button onclick="silver()">silver</button>
-               <button onclick="khaki()">khaki</button>
-               <button onclick="tan()">tan</button>
-               <button onclick="crimson()">crimson</button>
-               <button onclick="ivory()">ivory</button>
-               <button onclick="magenta()">magenta</button>
-               <button onclick="brown()">brown</button>
-               <button onclick="purple()">purple</button>
-               <button onclick="gold()">gold</button>
-               <button onclick="turquoise()">turquoise</button>
-               <button onclick="teal()">teal</button>
-               <button onclick="skyblue()">skyblue</button>
-               <button onclick="navy()">navy</button>
-               <button onclick="lavender()">lavender</button>
-               <button onclick="fuchsia()">fuchsia</button>
-               <button onclick="maroon()">maroon</button>
-               <button onclick="sienna()">sienna</button>
-               <button onclick="bisque()">bisque</button>
-               <button onclick="carm()">Designer</button>
-			</div>
+				 <p><button onClick={Buttons}>Click to get it.</button></p>
+			  </div>s			
 		</div>
 	);
 }

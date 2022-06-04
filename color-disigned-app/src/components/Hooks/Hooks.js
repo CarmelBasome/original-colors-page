@@ -1,17 +1,40 @@
-import React, { useState } from "react";
+import {} from "@mui/base";
+import React, {useReducer} from "react";
 
-function StateTutorial() {
-    const [counter, useCounter] = useState(0);
-    const Increment = () => {
-        useCounter(counter + 1);
-    };
+const StateTutorial = () => {
+  const reducer = (state, action) => {
+    switch (action.type) {
+      case "INCREMENT":
+        return {count: state.count + 1, showText: !state.showText};
+      case "toggleShowText":
+        return {count: state.count -1, showText: !state.showText};
+      default:
+        return state;
+    }
+  };
+  const [state, dispatch] = useReducer(reducer, {count: 0, showText: true});
 
-    return(
-        <div className="hook">
-            {counter}
-            <button className="hook" onClick={Increment}>Increment</button>
-        </div>
-    );
-}
+  return (
+    <div>
+      <h1>{state.count}</h1>
+      <button
+        onClick={() => {
+          dispatch({type: "INCREMENT"});
+        }}
+      >
+        Increment
+      </button>
+
+      <button
+        onClick={() => {
+          dispatch({type: "toggleShowText"});
+        }}
+      >
+        Decrement
+      </button>
+      {state.showText && <h2>This is the text</h2>}
+    </div>
+  );
+};
 
 export default StateTutorial;
