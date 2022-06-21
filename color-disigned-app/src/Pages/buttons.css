@@ -1,0 +1,159 @@
+button{
+    margin: 2px;
+    width: 10rem;
+}
+
+h1 {
+    font-size: 5rem;
+    background-color: aliceblue;
+    margin: 1rem 10rem;
+}
+
+.red {
+    color: red;
+    background-color: red;
+}
+
+.white {
+    color: white;       
+    background-color: white;
+}
+
+.black {
+    color: black;       
+    background-color: black;
+}
+
+.blue {
+    color: blue;
+    background-color: blue;
+}
+
+.green {
+    color: green;
+    background-color: green;
+}
+
+.gray {
+    color: gray;
+    background-color: gray;
+}
+
+.orange {
+    color: orange;
+    background-color: orange;
+}
+
+.yellow {
+    color: yellow;
+    background-color: yellow;
+}
+
+.pink {
+    color: pink;
+    background-color: pink;
+}
+
+.violet {
+    color: violet;
+    background-color: violet}
+
+.lime {
+    color: lime;
+    background-color: lime;
+}
+
+.beige {
+    color: beige;
+    background-color: beige;
+}
+
+.silver {
+    color: silver;
+    background-color: silver;
+}
+
+.khaki {
+    color: khaki;
+    background-color: khaki;
+}
+
+.tan {
+    color: tan;
+    background-color: tan;
+}
+
+.crimson {
+    color: crimson;
+    background-color: crimson;
+}
+
+.ivory {
+    color: ivory;
+    background-color: ivory;
+}
+
+.magenta {
+    color: magenta;
+    background-color: magenta;
+}
+
+.brown {
+    color: brown;
+    background-color: brown;
+}
+
+.purple {
+    color: purple;
+    background-color: purple;
+}
+
+.gold {
+    color: gold;
+    background-color: gold;
+}
+
+.turquoise {
+    color: turquoise;
+    background-color: turquoise;
+}
+
+.teal {
+    color: teal;
+    background-color: teal;
+}
+
+.skyblue {
+    color: skyblue;
+    background-color: skyblue;
+}
+
+.navy {
+    color: navy;
+    background-color: navy;
+}
+
+.lavender {
+    color: lavender;
+    background-color: lavender;
+}
+
+.maroon {
+    color: maroon;
+    background-color: maroon;
+}
+
+.sienna {
+    color: sienna;
+    background-color: sienna;
+}
+
+.bisque {
+    color: bisque;
+    background-color: bisque;
+}
+
+.carm {
+    color: white;
+    background-color: gray;
+}

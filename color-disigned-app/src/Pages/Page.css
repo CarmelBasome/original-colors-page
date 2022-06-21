@@ -12,10 +12,13 @@
 		.buttons-section {
 			margin: 1rem 9.5rem;
 		}
+		
 		.h2{
-			font-size: 80px;
+			font-size: 6rem;
 			text-align: center;
-			color: dodgerblue;
+			color: #030;
+			text-shadow: 2px -2px 1px;
+
 		}
 		p{
 			text-align: center;
@@ -34,35 +37,35 @@
 		.div1{
 			color: black;
 			text-align: center;
-			text-shadow: 2px -2px 10px;
-			background-color: none;
+			text-shadow: 2px -2px 1px;
 			font-size: 65px;
-			margin: 2px 200px;
+			margin: 2px 10rem;
 			border: 2px silver solid;
-			box-shadow: -1px 1px 100px;
+			box-shadow: 12px -12px 50px;
 		}		
 		.div{
 			color: black;
 			text-align: center;
 			text-shadow: 2px -2px 10px;
-			background-color: none;
 			font-size: 65px;
 			margin: 2px 200px;
 			border: 2px silver solid;
 			box-shadow: -1px 1px 100px;
 			display: none;
 		}
-		.homebttn{
-			width: 170px;
-			font-size: 40px;
-			border: 0px gray solid;
-			display: hide;
-			margin: 1px 200px 1px 200px;
-			position: fixed;
+		.getStarted {
+			width: 280px;
+			color: aliceblue;
+			font-size: 30px;
+			background-color: #030;
+			border-radius: 50px;
+		}
+
+		.getStarted:hover {
+			background-color: #082;
 		}
 		
 		li {
 			text-align: left;
 		}
-
 
