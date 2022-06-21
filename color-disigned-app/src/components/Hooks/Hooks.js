@@ -1,40 +1,53 @@
+
 import {} from "@mui/base";
-import React, {useReducer} from "react";
+import axios from "axios";
+import React, {useEffect, useState} from "react";
 
 const StateTutorial = () => {
-  const reducer = (state, action) => {
-    switch (action.type) {
-      case "INCREMENT":
-        return {count: state.count + 1, showText: !state.showText};
-      case "toggleShowText":
-        return {count: state.count -1, showText: !state.showText};
-      default:
-        return state;
-    }
-  };
-  const [state, dispatch] = useReducer(reducer, {count: 0, showText: true});
+  const [text, setText] = useState(window.innerWidth);
+  
+  const carm = () => {
+    setText(window.innerWidth);
+  }
+  useEffect(() => {
+    window.addEventListener('resize', carm);
+  })
+  
+  
 
+  return <div className="modal">
+    <h2>{text}</h2>
+  </div>
+};
+
+export default StateTutorial;
+
+
+/*
+import {} from "@mui/base";
+import axios from "axios";
+import React, {useEffect, useState} from "react";
+import Home from "../../Pages/Home";
+import Services from "../../Pages/Services";
+
+function StateTutorial(props) {
+  const [modalIsOpen, setModalIsOpen] = useState(false);
+
+  function deleteHandler() {
+    setModalIsOpen(true);
+  }
   return (
-    <div>
-      <h1>{state.count}</h1>
-      <button
-        onClick={() => {
-          dispatch({type: "INCREMENT"});
-        }}
-      >
-        Increment
-      </button>
-
-      <button
-        onClick={() => {
-          dispatch({type: "toggleShowText"});
-        }}
-      >
-        Decrement
-      </button>
-      {state.showText && <h2>This is the text</h2>}
-    </div>
+      <div className="card">
+        <h2>{props.text}</h2>
+        <div>
+          <button className="btn" onClick={deleteHandler}>Delete</button>
+        </div>
+        {modalIsOpen && <Home />}
+        {modalIsOpen && <Services />}
+        
+      </div>
   );
 };
 
 export default StateTutorial;
+*/
