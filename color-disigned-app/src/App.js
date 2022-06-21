@@ -22,6 +22,8 @@ import { AppBar } from "@mui/material";
 import NavigationBar from './components/NavBar/NavigationBar';
 import Page from './Pages/Page';
 
+import { router, Route, Routes } from "react-router-dom";
+
                 
 function App() {
   return(

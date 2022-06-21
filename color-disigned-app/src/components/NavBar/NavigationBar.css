@@ -19,6 +19,11 @@ ul {
     margin: 0px 3rem 2rem 0px;
 }
 
+a {
+    color: #030;
+    text-decoration: none;
+}
+
 .start {
     display: inline;
     margin: 0px 3rem 2rem 0px;

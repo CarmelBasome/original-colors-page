@@ -2,6 +2,8 @@ import React from "react";
 import './NavigationBar.css';
 import { Link } from "@mui/material";
 
+const oxide = 'https://oxide-digital.com/';
+
 function NavigationBar() {
     
     return <>
@@ -15,7 +17,7 @@ function NavigationBar() {
                    <Link to="/buttons" >Start</Link>
                </li>
                <li>
-                  <Link to="" >Visit us</Link>
+                  <a href="https://oxide-digital.com/">Visit us</a>
                </li>
           </ul>
        </header>      

@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import './Page.css';
 import Buttons from './buttons';
 
-
 function Page() {
     const [colors, setColors] = useState(false);
 
